@@ -74,7 +74,7 @@ const Select = ({ value, onChange, name }: InputType) => {
 };
 
 const GenderSelector = ({ value, onChange, name }: InputType) => {
-  const genders = ["male", "female"];
+  const genders = ["male", "female", "others"];
   const code = genders.map((v) => (
     <div>
       <input
